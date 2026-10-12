@@ -28,24 +28,7 @@ Le serveur démarre sur `http://localhost:3000`.
 | `GET` | `/api/users/:id` | Utilisateur correspondant à l'identifiant |
 | `POST` | `/contact` | Envoyer un message de contact |
 
-### Exemples de requêtes POST
 
-Pour créer un article, envoyer un corps JSON :
-
-```json
-{
-  "title": "Un nouvel article",
-  "author": "Aya"
-}
-```
-
-Pour envoyer un message de contact :
-
-```json
-{
-  "email": "exemple@email.com",
-  "message": "Bonjour"
-}
 ```
 
 Les requêtes POST doivent avoir l'en-tête `Content-Type: application/json`.
