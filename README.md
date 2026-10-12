@@ -20,11 +20,11 @@ Le serveur démarre sur `http://localhost:3000`.
 | `GET` | `/` | Message de bienvenue |
 | `GET` | `/about` | Informations sur l'application |
 | `GET` | `/api/articles` | Liste des articles |
-| `GET` | `/api/articles?author=Aya` | Articles filtrés par auteur |
+| `GET` | `/api/articles?author=...` | Articles filtrés par auteur |
 | `GET` | `/api/articles/:id` | Article correspondant à l'identifiant |
 | `POST` | `/api/articles` | Créer un article |
 | `GET` | `/api/users` | Liste des utilisateurs |
-| `GET` | `/api/users?name=Aya` | Utilisateurs filtrés par nom |
+| `GET` | `/api/users?name=...` | Utilisateurs filtrés par nom |
 | `GET` | `/api/users/:id` | Utilisateur correspondant à l'identifiant |
 | `POST` | `/contact` | Envoyer un message de contact |
 
